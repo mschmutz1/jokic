@@ -1,0 +1,103 @@
+[INFO  - 2018-11-21T21:38:10.882Z] GhostDriver - Main - running on port 60840
+[INFO  - 2018-11-21T21:38:11.052Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-11-21T21:38:11.052Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.customHeaders:  - {}
+[INFO  - 2018-11-21T21:38:11.052Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-11-21T21:38:11.052Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: be3fcf70-edd5-11e8-be38-3d958c69cb34
+[ERROR - 2018-11-21T21:38:37.106Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: [mobx] Encountered an uncaught exception that was thrown by a reaction or observer component, in: 'Reaction[Reaction@135] Error: [mobx.array] Index out of bounds, function (n) {return n.flatOutcomesIds;} is larger than 0
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.107Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  reportExceptionInDerivation (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.107Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: [mobx] Encountered an uncaught exception that was thrown by a reaction or observer component, in: 'Reaction[Reaction@137] Error: [mobx.array] Index out of bounds, function (n) {return n.flatOutcomesStatus;} is larger than 0
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.108Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  reportExceptionInDerivation (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.111Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: [mobx] Encountered an uncaught exception that was thrown by a reaction or observer component, in: 'Reaction[Autorun@167] TypeError: Type error
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.111Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  reportExceptionInDerivation (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.112Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: ERROR TypeError: Type error
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.112Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  Tt (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.539Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.httpIFrame.contentWindow.hasOwnProperty("XMLHttpRequest")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.539Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  onload (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.555Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: ERROR TypeError: Type error
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T21:38:37.555Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  Tt (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-11-21T21:43:10.872Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T21:48:10.862Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T21:53:10.853Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T21:58:10.852Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:03:10.848Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:08:10.842Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:13:10.832Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:18:10.823Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:23:10.815Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:28:10.812Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:33:10.805Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:38:10.805Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:43:10.798Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-11-21T22:48:10.792Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2018-11-21T22:48:58.167Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: [mobx] Encountered an uncaught exception that was thrown by a reaction or observer component, in: 'Reaction[Reaction@135] Error: [mobx.array] Index out of bounds, function (n) {return n.flatOutcomesIds;} is larger than 0
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.167Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  reportExceptionInDerivation (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.168Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: [mobx] Encountered an uncaught exception that was thrown by a reaction or observer component, in: 'Reaction[Reaction@137] Error: [mobx.array] Index out of bounds, function (n) {return n.flatOutcomesStatus;} is larger than 0
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.168Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  reportExceptionInDerivation (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.171Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: [mobx] Encountered an uncaught exception that was thrown by a reaction or observer component, in: 'Reaction[Autorun@167] TypeError: Type error
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.171Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  reportExceptionInDerivation (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.172Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: ERROR TypeError: Type error
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.172Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  Tt (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.619Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: ERROR TypeError: Type error
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:58.620Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  Tt (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:59.817Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'e.httpIFrame.contentWindow.hasOwnProperty("XMLHttpRequest")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-11-21T22:48:59.817Z] Session [be3fcf70-edd5-11e8-be38-3d958c69cb34] - page.onError - stack:
+  onload (https://www.bovada.lv/assets/js/main.142a574e4e4c881139f1.bundle.js:1)
+
+  phantomjs://platform/console++.js:263 in error
