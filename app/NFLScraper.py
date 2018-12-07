@@ -47,6 +47,9 @@ class NFLScraper:
         game_data['Line'] = spread
         date = game_element.find_elements_by_class_name('scores')[0].get_attribute('innerText')
         format = '%m/%d/%y %I:%M %p'
-        game_data['Date'] = datetime.strptime(' '.join(date.splitlines()), format)
+        try:
+            game_data['Date'] = datetime.strptime(' '.join(date.splitlines()), format)
+        except ValueError:
+            return None
         return game_data
 
