@@ -21,12 +21,22 @@ from app.NFLScraper import NFLScraper
 def hello_world():
     return "Hello word"
 
+@app.route('/nfl/worker/', methods=['POST'])
+def worker():
+    retries = 0
+    game_lines = []
+    while len(game_lines) == 0 and retries < 3:
+        NFLScraper.fill_games()
+        game_lines = NFLScraper.get_games_lines()
+        retries += 1
+    Game.update_lines(game_lines)
+    return jsonify(game_lines)
+
 @app.route('/nfl/fill/')
 def fill():
     print("UPDATING")
     NFLScraper.fill_games()
-    print("DONE")
-    return jsonify(NFLScraper.get_games_lines())
+    return jsonify(NFLScraper.get_games_lines()), 200
 
 @app.route('/nfl/get_lines/')
 def index():
