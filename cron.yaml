@@ -1,0 +1,5 @@
+version: 1
+cron:
+      - name: 'worker'
+        url: '/nfl/worker'
+        schedule: '0 * * * *'
